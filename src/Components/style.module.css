@@ -1,0 +1,76 @@
+.copydiv{
+    width: 100%;
+    min-height: 30px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.inputsize{
+    width: 95%;
+    height: 1.9rem;
+    
+}
+.copyimage{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    /* border: 1px solid yellowgreen; */
+    background-color: #116bb4;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.copyimage :hover{
+    background-color: rgb(0, 128, 0);
+
+}
+.cpimg{
+    width: 25px;
+    height: 25px;
+    z-index: 20;
+    background-color: white;
+    border-radius: 4px;
+}
+.passwordlenghtdiv{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkdiv{
+    width: 10%;
+    /* border: 2px solid blue; */
+    height: 100px;
+    margin-top: 50px;
+    
+}
+.checbx{
+    cursor: pointer;
+}
+
+.div1{
+    height: 20px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+}
+.buttonstyle{
+    width: 100%;
+    padding: 15px;
+    text-align: center ;
+    background-color: #116bb4;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.buttonstyle:hover{
+    background-color: rgb(0, 128, 0);
+}
